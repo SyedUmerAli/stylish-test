@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image: url(./images/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60rem;
+    
+ }
+
+ .nav-barr{
+    width: 100vw;
+   position:fixed;
+ }
+
+
+.container h1{
+    font-size: 88px;
+}
+.container h3{
+    font-size: 28px;
+    text-align: center;
+}  
+.container a{
+    font-size: 16px;
+    font-weight: 400;
+    
+}  
+
+.about{
+    padding: 120px 120px;
+    line-height: 24px;
+}
+
+.service{
+    background-color: rgb(29, 128, 159);
+    color: white;
+    display: block;
+    padding: 120px 120px;
+}
+
+.content-service h3{
+    color: rgb(238, 195, 117);
+}
+
+.bgcontent{
+    background-image: url(./images/bg-callout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+ }
+
+ .hello{
+    padding: 20rem;
+ }
+ .five{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+ }
+ .six{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+ }
+
+ .one{
+    height: 40vh;
+    color: white;
+    background-image: url(./images/portfolio-1.jpg);
+}
+.two{
+     height: 40vh;
+    background-image: url(./images/portfolio-2.jpg);
+    color: white;
+ }
+ .three{
+    height: 40vh;
+    color: white;
+    background-image: url(./images/portfolio-3.jpg);
+}
+.four{
+     height: 40vh;
+    background-image: url(./images/portfolio-4.jpg);
+    color: white;
+ }
